@@ -90,7 +90,7 @@ const Contact = () => {
                   value={name}
                   class="form-control boxCss1"
                   id="inputEmail4"
-                  onChange={(e)=>setName(e.target.value)}
+                  onChange={(event)=>setName(event.target.value)}
                 ></input>
               </div>
               <div class="col-12">
