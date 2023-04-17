@@ -10,14 +10,11 @@ const Home = () => {
         <div className="float-container fld">
           <div className="float-child fld1">
             <div className="text-center wlcm">
-              Welcome to <span style={{ color: "blue" }}>CodeWithNikhil</span>
+              Welcome to <span style={{ color: "blue" }}>BlogWithNikhil</span>
             </div>
             <p className="txtcls">
-              Code that communicates its purpose is very important. I often
-              refactor just when I’m reading some code. That way, 
-              as I gain
-              understanding about the program, I embed that understanding into
-              the code for later so I don’t forget what I learned.
+            Hi Folks, This is a blog website created using Reactjs which contains almost each and every functionality which a standard blog website should contain. The data inserted initially is the dummy data. Have a look on each and every functionality of this website. Happy Coding :) 
+            
             </p>
             <div className="text-center">
               <Link

@@ -9,7 +9,7 @@ function Header() {
         <nav className="navbar navbar-expand-lg navbar-light bg-light ">
           <div className="container-fluid py-3 marglr">
             <a className="navbar-brand mx-auto  active" href="/">
-              <span className="codewith">CodeWithNikhil</span>
+              <span className="codewith">BlogWithNikhil</span>
             </a>
             <button
               class="navbar-toggler collapsed"
