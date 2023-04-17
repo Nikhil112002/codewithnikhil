@@ -52,6 +52,9 @@ const Post = () => {
           <div class="mt-3 pt-3">
             <p class="center txtcls">{postData.description}</p>
           </div>
+          <div class="mt-3 pt-3">
+            <p class="center txtcls">{postData.description}</p>
+          </div>
         </div>
       </div>
       <FooterAll />
