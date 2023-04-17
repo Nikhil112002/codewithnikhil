@@ -25,7 +25,7 @@ function Header() {
             
 
             <div
-              className="collapse navbar-collapse nav justify-content-center"
+              className="collapse navbar-collapse nav justify-content-end"
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav mr-50 mb-2 mb-lg-0 " id="secondProblem">
