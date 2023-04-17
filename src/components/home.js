@@ -3,7 +3,7 @@ import blogs from "../blogs.json";
 import { Link } from "react-router-dom";
 
 const Home = () => {
-  document.title = "Home | CodeWithNikhil";
+  document.title = "Home | BlogWithNikhil";
   return (
     <>
       <div className="container">

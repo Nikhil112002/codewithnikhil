@@ -5,7 +5,7 @@ import FooterAll from './FooterAll';
 import { Link } from 'react-router-dom';
 
 const Blog = () => {
-  document.title="Blog | CodeWithNikhil"
+  document.title="Blog | BlogWithNikhil"
   return (
     <>
 

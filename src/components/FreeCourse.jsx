@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 
 const FreeCourse = () => {
-  document.title="Free Course | CodeWithNikhil"
+  document.title="Free Course | BlogWithNikhil"
   return (
     <>
       <Header></Header>

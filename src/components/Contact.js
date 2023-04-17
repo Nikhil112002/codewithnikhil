@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
-  document.title="Contact | CodeWithNikhil"
+  document.title="Contact | BlogWithNikhil"
   const [name,setName]=useState("");
   const [phone,setPhone]=useState("");
   const [email,setEmail]=useState("");
