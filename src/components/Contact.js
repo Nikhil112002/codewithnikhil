@@ -79,7 +79,7 @@ const Contact = () => {
             </p>
           </div>
           <div class="col-md-5 my-5">
-            <form class="row g-3" action="https://formspree.io/f/xjvdpqjk" method="POST" onSubmit={handleSubmit}>
+            <form class="row g-3" action="https://formspree.io/f/xjvdpqjk" method="POST">
               <div class="col-md-12">
                 <label for="inputEmail4" class="form-label labelClr">
                   Full Name 
