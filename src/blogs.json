@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "title": "Create Custom Music Player in JavaScript",
+        "category": "Development",
+        "istrue": true,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "authorName": "John Doe",
+        "authorAvatar": "/assets/images/author.jpg",
+        "createdAt": "June 03, 2021",
+        "cover": "/assets/images/Purple-Combination-colors-graphic-design-predictions-1024x576-1024x576.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Milan Places That Highlight The City",
+        "category": "Travel",
+        "istrue": true,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "authorName": "John Boal",
+        "cover": "/assets/images/f67396fc3cfce63a28e07ebb35d974ac.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Online Shopping – An Alternative to Shopping",
+        "category": "Shopping",
+        "istrue": false,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "authorName": "John Hgasw",
+        "cover": "/assets/images/fQwuyKJ9qxjSbr6REcgtmW-1200-80.jpg"
+    },
+    {
+        "id": 4,
+        "title": "ADVENTURE IN YOU FOR THE BEST",
+        "category": "Adventure",
+        "istrue": false,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "authorName": "John Yhaja",
+        "cover": "/assets/images/graphic-design-trends.png"
+    },
+    {
+        "id": 5,
+        "title": "Loaded BBQ Baked Potatoes in the Ground",
+        "category": "Cooking",
+        "istrue": true,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "authorName": "John Njag",
+        "cover": "/assets/images/make-it-personal.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Text To Speech Converter in HTML CSS & JavaScript",
+        "category": "Development",
+        "istrue": false,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "authorName": "John aakl",
+        "cover": "/assets/images/Purple-Combination-colors-graphic-design-predictions-1024x576-1024x576.jpg"
+    }
+]
