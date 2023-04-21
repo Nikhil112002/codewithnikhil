@@ -1,9 +1,25 @@
 import React from "react";
-import blogs from "../blogs.json";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import axios from "axios";
+import { BASE_URI } from "./Secret";
+import LoadingSpinner from './LoadingSpinner';
 
 const Home = () => {
   document.title = "Home | BlogWithNikhil";
+  const [blog,setBlog]=useState([]);
+  const [isLoading, setIsLoading] = useState(false);
+
+  const fetchData = async()=>{
+    setIsLoading(true);
+    const response = await axios.get(`${BASE_URI}/api/products/blogs`);
+    setBlog(response.data.myBlog);
+    console.log(response.data.myBlog);
+    setIsLoading(false);
+  }
+  useEffect(()=>{
+    fetchData();
+  },[])
   return (
     <>
       <div className="container">
@@ -61,7 +77,8 @@ const Home = () => {
           </div>
         </div>
         <div className="row col-md-12 col-12  mx-auto">
-          {blogs.map((curr, index) => {
+        {isLoading ? <LoadingSpinner /> : 
+          blog.map((curr, index) => {
             return (
               curr.istrue && (
                 <div className="col-md-4 mx-auto rad">
@@ -110,7 +127,8 @@ const Home = () => {
                 </div>
               )
             );
-          })}
+          })
+        }
         </div>
       </div>
     </>

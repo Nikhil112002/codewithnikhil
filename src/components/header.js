@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <>
-      {/* <div class="container-fluid nav-bg mb-5 sticky-top"></div> */}
+      {/* <div className="container-fluid nav-bg mb-5 sticky-top"></div> */}
       <div className="row mx-auto ">
         <div className="col-md-10 mx-auto "></div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light ">
@@ -12,7 +12,7 @@ function Header() {
               <span className="codewith">BlogWithNikhil</span>
             </a>
             <button
-              class="navbar-toggler collapsed"
+              className="navbar-toggler collapsed"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -20,7 +20,7 @@ function Header() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
             
 

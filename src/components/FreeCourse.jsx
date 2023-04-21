@@ -1,19 +1,32 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Header from "./header";
 import FooterAll from "./FooterAll";
-import courses from "../courses.json";
 import { Link } from "react-router-dom";
-
+import LoadingSpinner from './LoadingSpinner';
+import axios from "axios";
+import { BASE_URI } from "./Secret";
 
 const FreeCourse = () => {
-  document.title="Free Course | BlogWithNikhil"
+  document.title="Free Course | BlogWithNikhil";
+  const [isLoading, setIsLoading] = useState(false);
+  const [courses,setCourses]=useState([]);
+  const fetchData = async()=>{
+    setIsLoading(true);
+    const response = await axios.get(`${BASE_URI}/api/products`);
+    setCourses(response.data.myData);
+    setIsLoading(false);
+  }
+  useEffect(()=>{
+    fetchData();
+  },[])
   return (
     <>
       <Header></Header>
-      {courses.map((cur, index) => {
+      {isLoading ? <LoadingSpinner /> : 
+      courses.map((cur, index) => {
         return(
-          <div className="center mt-4">
-        <div className=" card col-md-8 shadow ps-4 p-3 mb-4 bg-body roundedd mx-5" key={index}>
+          <div className="center mt-4" key={index}>
+        <div className=" card col-md-8 shadow ps-4 p-3 mb-4 bg-body roundedd mx-5" >
           <h5 
             className="card-header"
             style={{
@@ -51,7 +64,8 @@ const FreeCourse = () => {
         </div>
         </div>
         )
-      })}
+      })
+      }
 
       <FooterAll></FooterAll>
     </>

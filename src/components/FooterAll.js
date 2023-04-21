@@ -22,7 +22,7 @@ const FooterAll = () => {
                 href="#!"
                 role="button"
               >
-                <i class="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-twitter"></i>
               </a>
 
               <a
