@@ -25,7 +25,7 @@ const Contact = () => {
       const {name, email, phone, message} = user;
       // console.log(user);
       if(name&&phone&&email&&message){
-        const resp = await axios.post("http://localhost:5000/api/products/contacts",{
+        const resp = await axios.post("https://nikhilblog.onrender.com/api/products/contacts",{
         name,email,phone,message
       })
       console.log(resp);
